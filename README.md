@@ -8,7 +8,7 @@
 </p>
 
 
-##Daily progress updates  
+# Daily progress updates  
 
 **26.1.2022**  
 - Prepracovanie dizajnu v programe [Figma](https://www.figma.com) a čiastočné aplikovanie dizajnu na stránke.
