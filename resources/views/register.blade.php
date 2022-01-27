@@ -11,7 +11,7 @@
 
     <body class="">
     {{--Pozadie--}}
-    <main class="bg-gray-800 h-screen  text-white flex">
+    <main class="bg-enter-screen bg-cover h-screen  text-white flex">
 
         {{--Pozadie formuláru --}}
 <div class="bg-sky-blue rounded-2xl w-4/12 xl:w-3/12 h-fit mx-auto my-auto px-10 pt-10 pb-5 ">
@@ -56,13 +56,13 @@
             </label>
 
         </form>
-    <a class="flex  underline w-fit mx-auto mt-2   text-sm text-gray-200 hover:text-gray-900" href="{{ route('login') }}">
+    <a class="flex  underline w-fit mx-auto mt-2   text-sm text-gray-300 hover:text-white" href="{{ route('login') }}">
         Už si zaregistrovaný?
     </a>
 </div>
 
         <div class="absolute bottom-2 left-2/4">
-            <p class="bg-gray-800 relative -left-2/4  ">Verzia 0.2</p>
+            <p class="relative -left-2/4  ">Verzia 0.3</p>
         </div>
     </main>
     </body>

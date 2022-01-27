@@ -16,10 +16,17 @@
 
 
 **27.1.2022** 
-- 
+- Vytvorené vlastné CSS triedy v [Tailwind CSS](https://tailwindcss.com/) frameworku.  
+- Upravené pozadie na login a register stránkach a čiastočné upravenie aj admin panel stránky.
+
 
 <hr/>
 
+##Credits
+
+- [Adalbertus](https://github.com/Adalbertus250)
+
+<hr/>
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:

@@ -15,6 +15,10 @@ module.exports = {
             backgroundColor: {
                 'sky-blue' : 'rgba(7, 24, 50, 0.7)',
             },
+            backgroundImage: {
+              'enter-screen' : "url('/images/pexels-rafael-cerqueira-4737484.jpg')",
+              'admin-screen' : "url(/images/pexels-felix-mittermeier-956981.jpg)",
+            },
         },
     },
 

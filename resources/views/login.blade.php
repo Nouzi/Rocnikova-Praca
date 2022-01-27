@@ -10,7 +10,7 @@
 </head>
 
 <body class=" ">
-<div class="bg-gray-800 h-screen  text-white flex">
+<div class="bg-enter-screen bg-cover  h-screen  text-white flex">
 {{-- Prihlasovacie okno --}}
     <div class="bg-sky-blue rounded-2xl w-4/12 xl:w-3/12 flex flex-col justify-center self-center mx-auto ">
 
@@ -58,7 +58,7 @@
         <input class=" font-semibold mx-auto text-black " type="submit" value="Odoslať">
         </label>
 
-        <a class="underline w-fit mx-auto my-4 text-sm text-gray-200 hover:text-gray-900 opacity-100" href="{{ route('register') }}">
+        <a class="underline w-fit mx-auto my-4 text-sm text-gray-300 hover:text-white opacity-100" href="{{ route('register') }}">
             Ešte si neni prihlásený?
         </a>
 
@@ -77,7 +77,7 @@
 
     </form>
         <div class="absolute bottom-2 left-2/4">
-        <p class="bg-gray-800 relative -left-2/4  ">Verzia 0.2</p>
+        <p class="relative -left-2/4  ">Verzia 0.3</p>
         </div>
     </div>
 
