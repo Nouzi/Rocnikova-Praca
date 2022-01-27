@@ -7,6 +7,19 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+
+##Daily progress updates  
+
+**26.1.2022**  
+- Prepracovanie dizajnu v programe [Figma](https://www.figma.com) a čiastočné aplikovanie dizajnu na stránke.
+- Pokračovanie v práci na vytváraní a prepájaní tabuliek pre zobrazovanie ľudí v admin panely.
+
+
+**27.1.2022** 
+- 
+
+<hr/>
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
