@@ -20,7 +20,6 @@
 - Upravené pozadie na login a register stránkach a čiastočné upravenie aj admin panel stránky.
 
 
-<hr/>
 
 ## Credits
 
