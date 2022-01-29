@@ -24,6 +24,7 @@
 - Vytvorený dizajn tabulky, v ktorej sa zobrazujú všetky potrebné dáta o žiakoch (meno, priezvisko, trieda).
 
 **29.1.2022**
+- Preštýlované select tlačítko na admin stránke, ktoré ešte treba domyslieť, aby sa čo naj efektívnejšie vedeli zobrazovať rôzne tabulky s ľudmi. 
 - 
 
 
