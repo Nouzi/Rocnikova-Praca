@@ -8,6 +8,8 @@
 </p>
 
 
+# Práca bola začatá v koncom minulého roka, no častejšie aktualizovanie spolu s posielaním na GitHub som začal robiť až 26.1.2022  
+<hr>
 # Daily progress updates  
 
 **26.1.2022**  
