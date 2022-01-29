@@ -8,6 +8,8 @@
 </p>
 
 
+# Práca bola začatá v koncom minulého roka, no častejšie aktualizovanie spolu s posielaním na GitHub som začal robiť až 26.1.2022  
+<hr/>
 # Daily progress updates  
 
 **26.1.2022**  
@@ -32,6 +34,10 @@
 ## Credits
 
 - [Adalbertus](https://github.com/Adalbertus250)
+<hr/>
+
+Pre otvornie si projektu vo vašom editore si ho stačí stiahnuť a postupovať rovnako ako pri každom Laravel projekte. 
+PS: Je to môj prvý projekt, na ktorom sa učím Laravel spolu s inými technológiami, ktoré ma niečím zaujali. 
 
 <hr/>
 
