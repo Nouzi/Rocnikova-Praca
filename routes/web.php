@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\AdminPanel;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -24,12 +24,10 @@ Route::get('/', function () {
 });
 
 
+/*Route::get('ludia-database', [ShowPeople::class, 'show'] );*/
 
 
-
-Route::get('/admin-panel', function () {
-    return view('admin-panel');     // stránka po prihlásení sa
-})->middleware(['auth'])->name('admin-panel');
+Route::get('/admin-panel', [AdminPanel::class, 'index'])->middleware(['auth'])->name('admin-panel');
 
 require __DIR__.'/auth.php';
 

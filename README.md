@@ -18,6 +18,13 @@
 **27.1.2022** 
 - Vytvorené vlastné CSS triedy v [Tailwind CSS](https://tailwindcss.com/) frameworku.  
 - Upravené pozadie na login a register stránkach a čiastočné upravenie aj admin panel stránky.
+- Dokončené riešenie pripojenia tabulky so žiakmi do admin panel stránky. #ThanksAdalbertusForHelp
+
+**28.1.2022**
+- Vytvorený dizajn tabulky, v ktorej sa zobrazujú všetky potrebné dáta o žiakoch (meno, priezvisko, trieda).
+
+**29.1.2022**
+- 
 
 
 

@@ -13,26 +13,39 @@
 
 
     </head>
-
+{{--nastavenie správneho časového pásma--}}
     <?php
     date_default_timezone_set('Europe/Prague');
     $date = date('h:i:s');
     ?>
+{{--Priradenie tabuľky so žiakmi do jednotlivých premenných--}}
+
 
     <body class="bg-enter-screen bg-cover">
     <main class="flex bg-admin-screen bg-cover h-screen">  {{--Pozadie je všade avšak treba preto odstrániť všetky ostatné v každom tagu--}}
         {{--Hlavná Časť--}}
         <div class="mainBar w-5/6">
 
-            <div class="bg-green-500 py-10"> Vrchná časť</div>
+            <div class="flex flex-col justify-center border border-1    h-1/6 px-10">
+
+                <p class="hover:text-white w-fit">
+                    <a class="list__category rounded-lg py-2 px-4 bg-gray-500" href="#">Skupiny</a>
+                </p>
+
+            </div>
 
 
 
-            <div class="bg-red-500">Spodná časť</div>
+            <div class="flex flex-col justify-center h-5/6">
+
+                <x-ludia-database :list="$ludia" />
+
+            </div>
         </div>
 
         {{--Vedlajšia časť--}}
-        <div class="sideBar w-1/6 bg-gray-600 text-center absolute right-0 h-screen">
+
+        <div class="sideBar w-1/6 bg-admin-sidePanel text-white text-center absolute right-0 h-admin-sidePanel-Height self-center mr-4 rounded-xl ">
             <div class="mt-5">
                 <h1 class="sideBar__mainText font-semibold"> Meno </h1>
                 <p class="sideBar__secondaryText mt-4 py-3 bg-gray-500 w-5/6 rounded-lg mx-auto"> {{ Auth::user()->name }}</p>
