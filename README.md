@@ -17,8 +17,11 @@
 
 <hr/>
 
-Pre otvornie si projektu vo vašom editore si ho stačí stiahnuť a postupovať rovnako ako pri každom Laravel projekte. PS:
-Je to môj prvý projekt, na ktorom sa učím Laravel spolu s inými technológiami, ktoré ma niečím zaujali.
+Pre otvornie si projektu vo vašom editore si ho stačí stiahnuť a postupovať rovnako ako pri každom Laravel projekte.  
+Pre podrobnejšie zistenie zmien a kedy sa udiali viď [changelog](https://github.com/Nouzi/Rocnikova-Praca/blob/master/changelog.md).  
+
+**PS:  
+Je to môj prvý projekt, na ktorom sa učím Laravel spolu s inými technológiami, ktoré ma niečím zaujali.**  
 
 <hr/>
 
