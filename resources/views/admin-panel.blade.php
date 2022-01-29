@@ -26,6 +26,8 @@
                 class="rounded-lg py-2 px-4 bg-gray-500 focus:shadow-none focus:border-0 focus:ring-0  w-fit">  {{--tlačítko sa ešte zmenšuje a treba domyslieť ten select--}}
                 <option class="list__category rounded-lg py-2 px-4 bg-gray-500">Trieda 4.C</option>
                 <option class="list__category rounded-lg py-2 px-4 bg-gray-500">Trieda 4.D</option>
+                <option class="list__category rounded-lg py-2 px-4 bg-gray-500">Trieda 4.A</option>
+                <option class="list__category rounded-lg py-2 px-4 bg-gray-500">Trieda 4.B</option>
             </select>
             {{--
                         <select name="cars" id="cars">
