@@ -16,7 +16,7 @@
 
 <body class="bg-enter-screen bg-cover">
 <main
-    class="flex bg-admin-screen bg-cover h-screen">  {{--Pozadie je všade avšak treba preto odstrániť všetky ostatné v každom tagu--}}
+    class="flex bg-admin-screen bg-cover h-screen ">  {{--Pozadie je všade avšak treba preto odstrániť všetky ostatné v každom tagu--}}
     {{--Hlavná Časť--}}
     <div class="mainBar w-5/6">
 
