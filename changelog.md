@@ -19,4 +19,11 @@
 
 - Preštýlované select tlačítko na admin stránke, ktoré ešte treba domyslieť, aby sa čo naj efektívnejšie vedeli
   zobrazovať rôzne tabulky s ľudmi.
-- 
+
+**31.1.2022**
+- Predizajnované tlačítka na admin stránke spolu s premýšlaním nad logikou zobrazovania údajov po kliknutí na jednotlivé tlačidlo. 
+- Pridané animované css štýly [Animate CSS](https://animate.style/), ktoré sa neskôr použíjú pri pracovaní na UX dizajne.
+
+**1.2.2022**
+- Pracovanie na novoj pripojení tabuliek do admin stránky a zároveň postupné experimentovanie so zobrazovaním dát z jednotlivých tabuliek. 
+- Všetko experimentovanie sa odohráva na vedlajšom git zväzku, ktorého obsah bude po úspešnom testovaní následne odoslaný na koreňovú vetvu. 

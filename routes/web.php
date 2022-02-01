@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminPanel;
+use \App\Models\person;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,7 +26,9 @@ Route::get('/', function () {
 
 
 /*Route::get('ludia-database', [ShowPeople::class, 'show'] );*/
-
+Route::get('/triedy', function () {
+    return view('welcome');
+});
 
 Route::get('/admin-panel', [AdminPanel::class, 'index'])->middleware(['auth'])->name('admin-panel');
 

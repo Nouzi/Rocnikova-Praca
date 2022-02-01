@@ -22,13 +22,15 @@
 
         <div class="flex flex-col justify-center border border-1    h-1/6 px-10">
 
-            <select
-                class="rounded-lg py-2 px-4 bg-gray-500 focus:shadow-none focus:border-0 focus:ring-0  w-fit">  {{--tlačítko sa ešte zmenšuje a treba domyslieť ten select--}}
-                <option class="list__category rounded-lg py-2 px-4 bg-gray-500">Trieda 4.C</option>
-                <option class="list__category rounded-lg py-2 px-4 bg-gray-500">Trieda 4.D</option>
-                <option class="list__category rounded-lg py-2 px-4 bg-gray-500">Trieda 4.A</option>
-                <option class="list__category rounded-lg py-2 px-4 bg-gray-500">Trieda 4.B</option>
-            </select>
+            <ul
+                class="flex gap-4 rounded-lg py-2 px-4 focus:shadow-none focus:border-0 focus:ring-0  w-fit">  {{--tlačítko sa ešte zmenšuje a treba domyslieť ten select--}}
+                <li class="list__category rounded-lg py-2 px-4 bg-gray-500 hover:bg-gray-400"> <a href="#"> Trieda 4.C </a> </li>
+                <li class="list__category rounded-lg py-2 px-4 bg-gray-500 hover:bg-gray-400"> <a href="#"> Trieda 4.D </a> </li>
+                <li class="list__category rounded-lg py-2 px-4 bg-gray-500 hover:bg-gray-400"> <a href="#"> Trieda 4.A </a> </li>
+                <li class="list__category rounded-lg py-2 px-4 bg-gray-500 hover:bg-gray-400"> <a href="#"> Trieda 4.B </a> </li>
+
+
+            </ul>
             {{--
                         <select name="cars" id="cars">
                             <option value="volvo">Volvo</option>
@@ -62,12 +64,12 @@
             </p>
 
             <div class="absolute bottom-8 left-2/4">
-                <div class="sideBar__privilege  font-semibold relative -left-2/4 py-2 px-4 bg-gray-500 rounded-lg">
+                <div class="sideBar__privilege font-semibold relative -left-2/4 py-2 px-4 bg-gray-500 hover:bg-gray-400 hover:text-black rounded-lg">
 
 
                 {{--Formulár na odhlásenie --}}
                 <!-- Authentication -->
-                    <form method="POST" action="{{ route('logout') }}">
+                    <fo rm method="POST" action="{{ route('logout') }}">
                         @csrf
 
                         <a href="route('logout')"
