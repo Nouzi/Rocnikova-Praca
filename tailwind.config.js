@@ -21,7 +21,7 @@ module.exports = {
                 'admin-screen': "url(/images/pexels-felix-mittermeier-956981.jpg)",
             },
             height: {
-                'admin-sidePanel-Height': '95%',
+                'admin-sidePanel-Height': '90%',
             },
         },
     },

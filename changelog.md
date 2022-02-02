@@ -29,5 +29,8 @@
 - Všetko experimentovanie sa odohráva na vedlajšom git zväzku, ktorého obsah bude po úspešnom testovaní následne odoslaný na koreňovú vetvu. 
 
 **2.2.2022**
-- Vytvorené základné pripojenie tabuliek na stránku a následné vyskúšanie funkčnosti
-- Vytvorenie nových troch tabuliek, ktoré majú slúžiť ako jednotlivé školské triedy
+- Vytvorené základné pripojenie tabuliek na stránku a následné vyskúšanie funkčnosti.
+- Vytvorenie nových troch tabuliek, ktoré majú slúžiť ako jednotlivé školské triedy.
+- vytvorené nové views, ktoré fungujú pre zobrazovanie jednotlivých admin panelov,
+  v ktorých sa otvorí vždy tabuľka, na ktorú sme si predtým vybrali.
+

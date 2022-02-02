@@ -30,9 +30,29 @@ Route::get('/triedy', function () {
     return view('welcome');
 });
 
-Route::get('/admin-panel', function () {
-    return ['people' => person::all()];
-} );
+
+/*wild card trieda pod stránka */
+/*Route::get('admin-panel/{class}', function ($trieda) {
+    $class = file_get_contents(__DIR__ . "/../resources/triedy/{$trieda}.html");
+
+    return view('admin-panel', [
+        'class' => $trieda
+    ]);
+});*/
+
+Route::get('admin-panel/trieda_a', function () {
+    return view('trieda_a');
+});
+
+Route::get('admin-panel/trieda_b', function () {
+    return view('trieda_b');
+});
+
+Route::get('admin-panel/trieda_d', function () {
+    return view('trieda_d');
+});
+
+
 
 Route::get('/admin-panel', [AdminPanel::class, 'index'])->middleware(['auth'])->name('admin-panel');
 

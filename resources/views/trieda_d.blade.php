@@ -24,7 +24,7 @@
 
             <ul
                 class="flex gap-4 rounded-lg py-2 px-4 focus:shadow-none focus:border-0 focus:ring-0  w-fit">  {{--tlačítko sa ešte zmenšuje a treba domyslieť ten select--}}
-                <li class="list__category rounded-lg py-2 px-4 bg-gray-500 hover:bg-gray-400"> <a href="/admin-panel/trieda_d"> Trieda 4.D </a> </li>
+                <li class="list__category rounded-lg py-2 px-4 bg-gray-500 hover:bg-gray-400"> <a href="/admin-panel"> Trieda 4.C </a> </li>
                 <li class="list__category rounded-lg py-2 px-4 bg-gray-500 hover:bg-gray-400"> <a href="/admin-panel/trieda_a"> Trieda 4.A </a> </li>
                 <li class="list__category rounded-lg py-2 px-4 bg-gray-500 hover:bg-gray-400"> <a href="/admin-panel/trieda_b"> Trieda 4.B </a> </li>
 
@@ -45,7 +45,7 @@
                     <th>Trieda</th>
                 </tr>
                 </thead>
-                <?php  $people = \App\Models\TriedaC::all(); ?>
+                <?php  $people = \App\Models\TriedaD::all(); ?>
 
                 @foreach($people as $person)
                     <tbody>
@@ -89,7 +89,7 @@
                            this.closest('form').submit();">
                             Odhlásiť sa
                         </a>
-                    </form>
+                        </form>
                 </div>
             </div>
         </div>
