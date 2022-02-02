@@ -33,4 +33,5 @@
 - Vytvorenie nových troch tabuliek, ktoré majú slúžiť ako jednotlivé školské triedy.
 - vytvorené nové views, ktoré fungujú pre zobrazovanie jednotlivých admin panelov,
   v ktorých sa otvorí vždy tabuľka, na ktorú sme si predtým vybrali.
+- Prepracovaná logika pomocou ktorej sa zobrazujú jednotlivé tabuľky v každom blade viewe.
 

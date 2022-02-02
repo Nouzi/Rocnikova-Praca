@@ -45,7 +45,6 @@
                         <th>Trieda</th>
                     </tr>
                     </thead>
-                    <?php  $people = \App\Models\TriedaA::all(); ?>
 
                     @foreach($people as $person)
                         <tbody>
