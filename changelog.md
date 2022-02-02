@@ -27,3 +27,7 @@
 **1.2.2022**
 - Pracovanie na novoj pripojení tabuliek do admin stránky a zároveň postupné experimentovanie so zobrazovaním dát z jednotlivých tabuliek. 
 - Všetko experimentovanie sa odohráva na vedlajšom git zväzku, ktorého obsah bude po úspešnom testovaní následne odoslaný na koreňovú vetvu. 
+
+**2.2.2022**
+- Vytvorené základné pripojenie tabuliek na stránku a následné vyskúšanie funkčnosti
+- Vytvorenie nových troch tabuliek, ktoré majú slúžiť ako jednotlivé školské triedy

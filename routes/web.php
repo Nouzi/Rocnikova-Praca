@@ -30,6 +30,10 @@ Route::get('/triedy', function () {
     return view('welcome');
 });
 
+Route::get('/admin-panel', function () {
+    return ['people' => person::all()];
+} );
+
 Route::get('/admin-panel', [AdminPanel::class, 'index'])->middleware(['auth'])->name('admin-panel');
 
 require __DIR__.'/auth.php';

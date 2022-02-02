@@ -31,13 +31,7 @@
 
 
             </ul>
-            {{--
-                        <select name="cars" id="cars">
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                            <option value="opel">Opel</option>
-                            <option value="audi">Audi</option>
-                        </select>--}}
+
 
         </div>
 
@@ -45,7 +39,18 @@
         <div class="flex flex-col justify-center h-5/6">
 
             <x-ludia-database :list="$ludia"/>
+{{--              <?php  $people = \App\Models\person::all(); ?>
 
+            <table
+                  @foreach($people as $person)
+                      <tbody>
+                      <tr class="bg-black text-white">
+                          <td>{{$person->name}}</td>
+                          <td>{{$person->surname}}</td>
+                      </tr>
+                      </tbody>
+            @endforeach
+            </table>--}}
         </div>
     </div>
 
@@ -88,4 +93,4 @@
 </body>
 
 </html>
-{{--</x-app-layout>--}}
+

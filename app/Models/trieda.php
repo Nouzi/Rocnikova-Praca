@@ -9,6 +9,6 @@ use App\Models\ludia;
 class trieda extends Model
 {
     use HasFactory;
-
     protected $fillable=['name', 'class', 'door_number'];
+
 }
