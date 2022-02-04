@@ -590,6 +590,17 @@ select {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.btn-admin-panel {
+  border-radius: 0.5rem;
+  background-color: rgba(134, 162, 174, 1);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.btn-admin-panel:hover {
+  background-color: rgba(191, 223, 237, 1);
+}
 .fixed {
   position: fixed;
 }
@@ -1006,11 +1017,14 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
+.bg-admin-button {
+  background-color: rgba(134, 162, 174, 1);
+}
 .bg-enter-screen {
-  background-image: url('/images/pexels-rafael-cerqueira-4737484.jpg');
+  background-image: url('/images/pexels-aron-visuals-1743165.jpg');
 }
 .bg-admin-screen {
-  background-image: url(/images/pexels-felix-mittermeier-956981.jpg);
+  background-image: url(/images/pexels-rafael-cerqueira-4737484.jpg);
 }
 .bg-cover {
   background-size: cover;
@@ -1306,6 +1320,9 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
 }
+.hover\:bg-admin-button-hover:hover {
+  background-color: rgba(191, 223, 237, 1);
+}
 .hover\:text-gray-500:hover {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
@@ -1524,5 +1541,4 @@ select {
     width: 25%;
   }
 }
-
 

@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .btn-admin-panel {
+        @apply rounded-lg py-2 px-4 bg-admin-button hover:bg-admin-button-hover;
+    }
+}
