@@ -1,3 +1,7 @@
+# Dokončená responzivita
+
+- 1920x1080
+
 # Daily progress updates
 
 **26.1.2022**
@@ -19,4 +23,32 @@
 
 - Preštýlované select tlačítko na admin stránke, ktoré ešte treba domyslieť, aby sa čo naj efektívnejšie vedeli
   zobrazovať rôzne tabulky s ľudmi.
-- 
+
+**31.1.2022**
+
+- Predizajnované tlačítka na admin stránke spolu s premýšlaním nad logikou zobrazovania údajov po kliknutí na jednotlivé
+  tlačidlo.
+- Pridané animované css štýly [Animate CSS](https://animate.style/), ktoré sa neskôr použíjú pri pracovaní na UX
+  dizajne.
+
+**1.2.2022**
+
+- Pracovanie na novoj pripojení tabuliek do admin stránky a zároveň postupné experimentovanie so zobrazovaním dát z
+  jednotlivých tabuliek.
+- Všetko experimentovanie sa odohráva na vedlajšom git zväzku, ktorého obsah bude po úspešnom testovaní následne
+  odoslaný na koreňovú vetvu.
+
+**2.2.2022**
+
+- Vytvorené základné pripojenie tabuliek na stránku a následné vyskúšanie funkčnosti.
+- Vytvorenie nových troch tabuliek, ktoré majú slúžiť ako jednotlivé školské triedy.
+- vytvorené nové views, ktoré fungujú pre zobrazovanie jednotlivých admin panelov, v ktorých sa otvorí vždy tabuľka, na
+  ktorú sme si predtým vybrali.
+- Prepracovaná logika pomocou ktorej sa zobrazujú jednotlivé tabuľky v každom blade viewe.
+
+**4.2.2022**
+
+- Pridané nové pozadie, ktoré bolo následne aplikované na login a register stránky.
+- Vymenené pozadie na admin panel stránkach.
+- Pridané nové custom [Tailwind CSS](https://tailwindcss.com/) triedy, ktoré boli následne aplikované na jednotlivé
+  tlačidlá v Admin panel stránkach.

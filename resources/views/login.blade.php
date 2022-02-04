@@ -48,7 +48,7 @@
         </form>
 
         <div class="absolute bottom-2 left-2/4">
-            <p class="relative -left-2/4  ">Verzia 0.3</p>
+            <p class="relative -left-2/4  ">Verzia 0.4</p>
         </div>
     </div>
 

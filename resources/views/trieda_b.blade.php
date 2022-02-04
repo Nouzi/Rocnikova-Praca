@@ -24,12 +24,9 @@
 
             <ul
                 class="flex gap-4 rounded-lg py-2 px-4 focus:shadow-none focus:border-0 focus:ring-0  w-fit">  {{--tlačítko sa ešte zmenšuje a treba domyslieť ten select--}}
-                <li class="list__category rounded-lg py-2 px-4 bg-admin-button hover:bg-admin-button-hover"><a
-                        href="/admin-panel/trieda_d"> Trieda 4.D </a></li>
-                <li class="list__category rounded-lg py-2 px-4 bg-admin-button hover:bg-admin-button-hover"><a
-                        href="/admin-panel/trieda_a"> Trieda 4.A </a></li>
-                <li class="list__category rounded-lg py-2 px-4 bg-admin-button hover:bg-admin-button-hover"><a
-                        href="/admin-panel/trieda_b"> Trieda 4.B </a></li>
+                <li class="list__category btn-admin-panel"> <a href="/admin-panel"> Trieda 4.C </a> </li>
+                <li class="list__category btn-admin-panel"> <a href="/admin-panel/trieda_d"> Trieda 4.D </a> </li>
+                <li class="list__category btn-admin-panel"> <a href="/admin-panel/trieda_a"> Trieda 4.A </a> </li>
 
 
             </ul>
@@ -75,8 +72,7 @@
 
 
             <div class="absolute bottom-8 left-2/4">
-                <div
-                    class="sideBar__privilege font-semibold relative -left-2/4 py-2 px-4 bg-admin-button hover:bg-admin-button-hover text-black rounded-lg">
+                <div class="sideBar__privilege font-semibold relative -left-2/4 py-2 px-4 btn-admin-panel">
 
 
                 {{--Formulár na odhlásenie --}}
@@ -89,7 +85,7 @@
                            this.closest('form').submit();">
                             Odhlásiť sa
                         </a>
-                    </form>
+                        </form>
                 </div>
             </div>
         </div>

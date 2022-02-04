@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.0.15 | MIT License | https://tailwindcss.com
+! tailwindcss v3.0.18 | MIT License | https://tailwindcss.com
 *//*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
@@ -590,6 +590,17 @@ select {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.btn-admin-panel {
+  border-radius: 0.5rem;
+  background-color: rgba(134, 162, 174, 1);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.btn-admin-panel:hover {
+  background-color: rgba(191, 223, 237, 1);
+}
 .fixed {
   position: fixed;
 }
@@ -675,11 +686,11 @@ select {
 .mt-6 {
   margin-top: 1.5rem;
 }
-.mt-5 {
-  margin-top: 1.25rem;
-}
 .mr-4 {
   margin-right: 1rem;
+}
+.mt-5 {
+  margin-top: 1.25rem;
 }
 .mt-3 {
   margin-top: 0.75rem;
@@ -745,7 +756,7 @@ select {
   height: 83.333333%;
 }
 .h-admin-sidePanel-Height {
-  height: 95%;
+  height: 90%;
 }
 .h-8 {
   height: 2rem;
@@ -991,26 +1002,29 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(75 85 99 / var(--tw-bg-opacity));
 }
-.bg-gray-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
-}
 .bg-gray-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+.bg-admin-sidePanel {
+  background-color: rgba(16, 22, 35, 0.7);
+}
+.bg-gray-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 .bg-gray-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
-.bg-admin-sidePanel {
-  background-color: rgba(16, 22, 35, 0.7);
+.bg-admin-button {
+  background-color: rgba(134, 162, 174, 1);
 }
 .bg-enter-screen {
-  background-image: url('/images/pexels-rafael-cerqueira-4737484.jpg');
+  background-image: url('/images/pexels-aron-visuals-1743165.jpg');
 }
 .bg-admin-screen {
-  background-image: url(/images/pexels-felix-mittermeier-956981.jpg);
+  background-image: url(/images/pexels-rafael-cerqueira-4737484.jpg);
 }
 .bg-cover {
   background-size: cover;
@@ -1051,6 +1065,10 @@ select {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -1058,10 +1076,6 @@ select {
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
-}
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 .px-1 {
   padding-left: 0.25rem;
@@ -1298,13 +1312,16 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
+.hover\:bg-gray-400:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+}
 .hover\:bg-gray-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
 }
-.hover\:bg-gray-400:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+.hover\:bg-admin-button-hover:hover {
+  background-color: rgba(191, 223, 237, 1);
 }
 .hover\:text-gray-500:hover {
   --tw-text-opacity: 1;
@@ -1321,6 +1338,10 @@ select {
 .hover\:text-gray-800:hover {
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
+}
+.hover\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 .hover\:text-gray-700:hover {
   --tw-text-opacity: 1;
@@ -1520,5 +1541,4 @@ select {
     width: 25%;
   }
 }
-
 
