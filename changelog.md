@@ -52,3 +52,8 @@
 - Vymenené pozadie na admin panel stránkach.
 - Pridané nové custom [Tailwind CSS](https://tailwindcss.com/) triedy, ktoré boli následne aplikované na jednotlivé
   tlačidlá v Admin panel stránkach.
+
+**6.2.2022**
+
+- Pridané opravené časti kódu od [Adalbertusa](https://github.com/Adalbertus250) #ThanksAdalbertusForHelp
+- Začatá logika na upravovanie, mazanie a pridávanie ľudí, do tabulky triedy.
