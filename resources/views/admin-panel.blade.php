@@ -46,6 +46,7 @@
                     <th>Meno</th>
                     <th>Priezvisko</th>
                     <th>Trieda</th>
+                    <th>Úprava</th>
                 </tr>
                 </thead>
 
@@ -55,8 +56,12 @@
                         <td>{{$person->name}}</td>
                         <td>{{$person->surname}}</td>
                         <td>{{$person->class}}</td>
+                        <td>
+                            <a class="text-blue-400 hover:text-blue-200" href="/admin-panel/{{$person->id}}/edit">Edit</a>
+                        </td>
                     </tr>
                     </tbody>
+
                 @endforeach
             </table>
 

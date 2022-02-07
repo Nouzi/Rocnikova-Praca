@@ -57,3 +57,6 @@
 
 - Pridané opravené časti kódu od [Adalbertusa](https://github.com/Adalbertus250) #ThanksAdalbertusForHelp
 - Začatá logika na upravovanie, mazanie a pridávanie ľudí, do tabulky triedy.
+
+**7.2.2022**
+- Dokončená logika na upravovanie dát ľudí v hlavnej tabuľke.

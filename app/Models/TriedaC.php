@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class TriedaC extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'name', 'surname', 'class'
+    ];
 }

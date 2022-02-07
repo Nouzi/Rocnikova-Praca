@@ -11,14 +11,16 @@
 
 <body>
 
-<form method="POST" action="/admin-panel/{{$people->id}}">
+<form method="GET" action="/admin-panel/{{$people->id}}">
+    @method('PUT')
     @csrf
-
     <input type="text" id="name" name="name" value="{{$people->name}}">
     <br>
     <input type="text" id="surname" name="surname" value="{{$people->surname}}">
     <br>
     <input type="text" id="class" name="class" value="{{$people->class}}">
+    <br>
+    <button>Aktualizovať</button>
 </form>
 
 
