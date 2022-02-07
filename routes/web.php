@@ -86,11 +86,10 @@ Route::prefix("admin-panel")->middleware(["auth"])->group(function () {
     Route::get("/trieda_a", [\App\Http\Controllers\AdminPanel::class, 'triedaA']);
     Route::get("/trieda_d", [\App\Http\Controllers\AdminPanel::class, 'triedaD']);
     Route::get("/trieda_b", [\App\Http\Controllers\AdminPanel::class, 'triedaB']);
+    Route::get('/create', [AddPeople::class, 'create']);
+    Route::post('/', [AddPeople::class, 'store']);
     Route::get('/{people}/edit', [AddPeople::class, 'edit']);
     Route::get('/{people}', [AddPeople::class, 'update']);
-    Route::get('/create', [AddPeople::class, 'create']);
-    Route::get('/welcome', [AddPeople::class, 'welcome']);
-    Route::post('/', [AddPeople::class, 'store']);
 });
 
 

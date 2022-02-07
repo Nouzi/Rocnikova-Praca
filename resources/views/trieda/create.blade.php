@@ -11,7 +11,7 @@
 
 <body>
 
-<form method="GET" action="/admin-panel/{{$people->id}}">
+<form method="GET" action="/admin-panel/">
     @method('PUT')
     @csrf
     <input type="text" id="name" name="name" value="">

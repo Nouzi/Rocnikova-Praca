@@ -60,3 +60,4 @@
 
 **7.2.2022**
 - Dokončená logika na upravovanie dát ľudí v hlavnej tabuľke.
+- Opravená chyba pri zobrazovaní nového create viewu v routes.
