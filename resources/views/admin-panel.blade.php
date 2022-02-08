@@ -50,6 +50,7 @@
                 </tr>
                 </thead>
 
+
                 @foreach($people as $person)
                     <tbody>
                     <tr class="hover:bg-gray-500">
@@ -57,13 +58,16 @@
                         <td>{{$person->surname}}</td>
                         <td>{{$person->class}}</td>
                         <td>
-                            <a class="text-blue-400 hover:text-blue-200" href="/admin-panel/{{$person->id}}/edit">Edit</a>
+                            <a class="text-blue-400 hover:text-blue-200"
+                               href="/admin-panel/{{$person->id}}/edit">Edit</a>
                         </td>
                     </tr>
                     </tbody>
 
                 @endforeach
             </table>
+
+            <a class="btn-admin-panel w-fit ml-10 mt-4" href="/admin-panel/create">Pridať žiaka</a>
 
         </div>
     </div>

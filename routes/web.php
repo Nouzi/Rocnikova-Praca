@@ -90,6 +90,7 @@ Route::prefix("admin-panel")->middleware(["auth"])->group(function () {
     Route::post('/', [AddPeople::class, 'store']);
     Route::get('/{people}/edit', [AddPeople::class, 'edit']);
     Route::get('/{people}', [AddPeople::class, 'update']);
+    Route::get('/{people}', [AddPeople::class, 'destroy']);
 });
 
 

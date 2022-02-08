@@ -59,5 +59,13 @@
 - Začatá logika na upravovanie, mazanie a pridávanie ľudí, do tabulky triedy.
 
 **7.2.2022**
+
 - Dokončená logika na upravovanie dát ľudí v hlavnej tabuľke.
 - Opravená chyba pri zobrazovaní nového create viewu v routes.
+
+**8.2.2022**
+
+- Dokončená logina na pridávanie ľudí do hlavnej tabuľky.
+- Dokončená logina na odstránenie ľudí z hlavnej tabuľky.
+- Preštýlované jednotlivé tlačítka na stránke pre editovanie žiaka.
+

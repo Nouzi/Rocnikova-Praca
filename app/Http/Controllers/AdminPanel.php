@@ -16,8 +16,6 @@ class AdminPanel extends Controller{
         return view("admin-panel", ["people" => $model]);
     }
 
-
-
     public function triedaA(){
         $model = TriedaA::all();
         return view("trieda_a", ["people" => $model]);

@@ -20,7 +20,17 @@
     <br>
     <input type="text" id="class" name="class" value="{{$people->class}}">
     <br>
-    <button>Aktualizovať</button>
+    <button class="btn-admin-panel w-fit my-5 mx-4">Aktualizovať</button>
+    <a class="btn-admin-panel w-fit bg-gray-500" href="/admin-panel"> Vrátiť sa </a>
+</form>
+
+<form action="/admin-panel/{{$people->id}}">
+    @csrf
+    @method('DELETE')
+
+    <button class="btn-admin-panel w-fit my-5 mx-4 bg-red-500 hover:bg-red-400">Odstrániť</button>
+
+
 </form>
 
 

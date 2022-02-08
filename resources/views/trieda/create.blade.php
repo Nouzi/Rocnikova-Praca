@@ -11,8 +11,7 @@
 
 <body>
 
-<form method="GET" action="/admin-panel/">
-    @method('PUT')
+<form method="POST" action="/admin-panel">
     @csrf
     <input type="text" id="name" name="name" value="">
     <br>
@@ -20,7 +19,9 @@
     <br>
     <input type="text" id="class" name="class" value="">
     <br>
-    <button>Aktualizovať</button>
+    <button class="btn-admin-panel w-fit my-4 mx-4">Pridať žiaka</button>
+    <a class="btn-admin-panel w-fit bg-gray-500" href="/admin-panel"> Vrátiť sa </a>
+
 </form>
 
 

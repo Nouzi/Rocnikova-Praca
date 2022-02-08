@@ -37,12 +37,6 @@ class AddPeople extends Controller
         return view('trieda.create');
 
     }
-    public function welcome()
-    {
-
-        return view('welcome');
-
-    }
 
     public function store()
     {
@@ -62,6 +56,14 @@ class AddPeople extends Controller
         return redirect('/admin-panel');
     }
 
+    public function destroy(TriedaC $people)
+    {
+
+        $people->delete();
+
+
+        return redirect('/admin-panel');
+    }
 
 
 }
