@@ -69,3 +69,8 @@
 - Dokončená logina na odstránenie ľudí z hlavnej tabuľky.
 - Preštýlované jednotlivé tlačítka na stránke pre editovanie žiaka.
 
+**9.2.2022**
+
+- Prepracovaný dizajn na [Figme](https://www.figma.com), aby bol up to date s akutálnym dizajnom na stránkach.
+- Aktualizovaný projekt na najnovšiu verziu [PHP](https://www.php.net/) frameworku [Laravel](https://laravel.com/) 9.
+
