@@ -7,7 +7,6 @@ use App\Models\TriedaA;
 use App\Models\TriedaD;
 use App\Models\TriedaB;
 use Illuminate\Http\Request;
-use App\Models\ludia;
 
 class AdminPanel extends Controller{
 
@@ -22,13 +21,13 @@ class AdminPanel extends Controller{
     }
 
     public function triedaD(){
-        $model = TriedaA::all();
-        return view("trieda_a", ["people" => $model]);
+        $model = TriedaD::all();
+        return view("trieda_d", ["people" => $model]);
     }
 
     public function triedaB(){
-        $model = TriedaA::all();
-        return view("trieda_a", ["people" => $model]);
+        $model = TriedaB::all();
+        return view("trieda_b", ["people" => $model]);
     }
 
 }
