@@ -2,7 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminPanel;
-use \App\Models\person;
 use \App\Http\Controllers\AddPeople;
 
 /*
@@ -82,10 +81,10 @@ Route::get('/triedy', function () {
  * Zároveň je do groupu implementován middleware který platí pro určitý group, tudíž jsou všechny cesty chráněny auth middlewarem a tím obsah na daných adresách zabezpečen proti spiders, botum a útočníkům.
  */
 Route::prefix("admin-panel")->middleware(["auth"])->group(function () {
-    Route::get("/", [\App\Http\Controllers\AdminPanel::class, 'index']);
-    Route::get("/trieda_a", [\App\Http\Controllers\AdminPanel::class, 'triedaA']);
-    Route::get("/trieda_d", [\App\Http\Controllers\AdminPanel::class, 'triedaD']);
-    Route::get("/trieda_b", [\App\Http\Controllers\AdminPanel::class, 'triedaB']);
+    Route::get("/", [AdminPanel::class, 'index']);
+    Route::get("/trieda_a", [AdminPanel::class, 'triedaA']);
+    Route::get("/trieda_d", [AdminPanel::class, 'triedaD']);
+    Route::get("/trieda_b", [AdminPanel::class, 'triedaB']);
     Route::get('/create', [AddPeople::class, 'create']);
     Route::post('/', [AddPeople::class, 'store']);
     Route::get('/{people}/edit', [AddPeople::class, 'edit']);

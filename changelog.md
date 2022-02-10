@@ -74,3 +74,7 @@
 - Prepracovaný dizajn na [Figme](https://www.figma.com), aby bol up to date s akutálnym dizajnom na stránkach.
 - Aktualizovaný projekt na najnovšiu verziu [PHP](https://www.php.net/) frameworku [Laravel](https://laravel.com/) 9.
 
+**10.2.2022**
+
+- Preštýlované podstránky na editovanie a pridávanie nových žiakov do hlavnej tabuľky.
+- Pridaný dizajn podstránok na editovanie a pridávanie nových žiakov do platformy [Figma](https://www.figma.com).

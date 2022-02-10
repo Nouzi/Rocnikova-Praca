@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.0.18 | MIT License | https://tailwindcss.com
+! tailwindcss v3.0.19 | MIT License | https://tailwindcss.com
 *//*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
@@ -648,14 +648,6 @@ select {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.mx-10 {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-}
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
-}
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
@@ -663,6 +655,14 @@ select {
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .ml-3 {
   margin-left: 0.75rem;
@@ -700,6 +700,9 @@ select {
 .mt-5 {
   margin-top: 1.25rem;
 }
+.ml-10 {
+  margin-left: 2.5rem;
+}
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -729,9 +732,6 @@ select {
 }
 .-mr-2 {
   margin-right: -0.5rem;
-}
-.ml-10 {
-  margin-left: 2.5rem;
 }
 .block {
   display: block;
@@ -836,6 +836,9 @@ select {
 .w-48 {
   width: 12rem;
 }
+.w-3\/12 {
+  width: 25%;
+}
 .max-w-7xl {
   max-width: 80rem;
 }
@@ -894,8 +897,14 @@ select {
 .flex-col {
   flex-direction: column;
 }
+.items-start {
+  align-items: flex-start;
+}
 .items-center {
   align-items: center;
+}
+.justify-start {
+  justify-content: flex-start;
 }
 .justify-end {
   justify-content: flex-end;
@@ -905,6 +914,9 @@ select {
 }
 .justify-between {
   justify-content: space-between;
+}
+.justify-items-center {
+  justify-items: center;
 }
 .gap-4 {
   gap: 1rem;
@@ -1009,6 +1021,14 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(238 242 255 / var(--tw-bg-opacity));
 }
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
 .bg-gray-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(75 85 99 / var(--tw-bg-opacity));
@@ -1023,17 +1043,9 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
-.bg-gray-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
-}
 .bg-gray-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
-}
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 .bg-enter-screen {
   background-image: url('/images/pexels-aron-visuals-1743165.jpg');
@@ -1240,14 +1252,6 @@ select {
   --tw-text-opacity: 1;
   color: rgb(79 70 229 / var(--tw-text-opacity));
 }
-.text-red-400 {
-  --tw-text-opacity: 1;
-  color: rgb(248 113 113 / var(--tw-text-opacity));
-}
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
-}
 .underline {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
@@ -1335,6 +1339,10 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
+.hover\:bg-red-400:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+}
 .hover\:bg-gray-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
@@ -1345,10 +1353,6 @@ select {
 }
 .hover\:bg-admin-button-hover:hover {
   background-color: rgba(191, 223, 237, 1);
-}
-.hover\:bg-red-400:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
 }
 .hover\:text-gray-500:hover {
   --tw-text-opacity: 1;
@@ -1377,18 +1381,6 @@ select {
 .hover\:text-gray-900:hover {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
-}
-.hover\:text-gray-200:hover {
-  --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity));
-}
-.hover\:text-red-600:hover {
-  --tw-text-opacity: 1;
-  color: rgb(220 38 38 / var(--tw-text-opacity));
-}
-.hover\:text-red-300:hover {
-  --tw-text-opacity: 1;
-  color: rgb(252 165 165 / var(--tw-text-opacity));
 }
 .focus\:z-10:focus {
   z-index: 10;
@@ -1578,6 +1570,14 @@ select {
 
   .xl\:w-3\/12 {
     width: 25%;
+  }
+
+  .xl\:w-4\/12 {
+    width: 33.333333%;
+  }
+
+  .xl\:w-2\/12 {
+    width: 16.666667%;
   }
 }
 
