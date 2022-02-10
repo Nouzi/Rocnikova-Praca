@@ -78,3 +78,7 @@
 
 - Preštýlované podstránky na editovanie a pridávanie nových žiakov do hlavnej tabuľky.
 - Pridaný dizajn podstránok na editovanie a pridávanie nových žiakov do platformy [Figma](https://www.figma.com).
+
+###Celová verzia dosiahnutá 
+**Nižšie spracované aktualizácie budú slúžiť už len na vylepšovanie základnej verzie, ktorá je už plne funkčná
+a dizajnovo spracovaná pre hlavné rozlíšenie 1920x1080**
