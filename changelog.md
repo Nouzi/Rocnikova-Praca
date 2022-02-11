@@ -92,3 +92,4 @@ dizajnovo spracovaná pre hlavné rozlíšenie 1920x1080**
 
 - Vytvorená nová vetva,na ktorej sa budú pridávať prototypy.
 
+
