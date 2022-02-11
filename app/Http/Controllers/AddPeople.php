@@ -28,7 +28,7 @@ class AddPeople extends Controller
             'class' => request('class'),
         ]);
 
-        return redirect('/admin-panel');
+        return redirect()->route('Admin_Panel');;
     }
 
     public function create()
@@ -53,7 +53,7 @@ class AddPeople extends Controller
             'class' => \request('class'),
         ]);
 
-        return redirect('/admin-panel');
+        return redirect()->route('Admin_Panel');
     }
 
     public function destroy(TriedaC $people)
@@ -62,7 +62,7 @@ class AddPeople extends Controller
         $people->delete();
 
 
-        return redirect('/admin-panel');
+        return redirect()->route('Admin_Panel');;
     }
 
 

@@ -84,12 +84,13 @@
 ### Celová verzia dosiahnutá
 
 **Nižšie spracované aktualizácie budú slúžiť už len na vylepšovanie základnej verzie, ktorá je už plne funkčná a
-dizajnovo spracovaná pre hlavné rozlíšenie 1920x1080**
+  dizajnovo spracovaná pre hlavné rozlíšenie 1920x1080**
 
 <hr/>
 
 **11.2.2022**
 
 - Vytvorená nová vetva,na ktorej sa budú pridávať prototypy.
-
+- vyskúšanie si [routingu](https://laravel.com/docs/9.x/routing)
+  cez [Named Routes](https://laravel.com/docs/9.x/routing#named-routes) v [Laravel 9](https://laravel.com/).
 

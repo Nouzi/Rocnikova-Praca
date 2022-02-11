@@ -21,15 +21,6 @@ use \App\Http\Controllers\AddPeople;
 | tak nás to presmeruje naspäť na login ak sme sa ešte neprihlásili
 */
 
-Route::get('/', function () {
-    return view('login');    // úvodná stránka
-});
-
-
-Route::get('/triedy', function () {
-    return view('welcome');
-});
-
 /**
  * Původní routes
  *
@@ -80,11 +71,17 @@ Route::get('/triedy', function () {
  * -   /admin-panel/trieda_b
  * Zároveň je do groupu implementován middleware který platí pro určitý group, tudíž jsou všechny cesty chráněny auth middlewarem a tím obsah na daných adresách zabezpečen proti spiders, botum a útočníkům.
  */
+
+Route::get('/', function () {
+    return view('login');    // úvodná stránka
+});
+
 Route::prefix("admin-panel")->middleware(["auth"])->group(function () {
-    Route::get("/", [AdminPanel::class, 'index']);
+    Route::get("/", [AdminPanel::class, 'index'])->name('Admin_Panel');  // následne dokážem pomocou name použiť funkciu route, ktorá bude ako premenná, v ktorej je celý index route
     Route::get("/trieda_a", [AdminPanel::class, 'triedaA']);
     Route::get("/trieda_d", [AdminPanel::class, 'triedaD']);
     Route::get("/trieda_b", [AdminPanel::class, 'triedaB']);
+
     Route::get('/create', [AddPeople::class, 'create']);
     Route::post('/', [AddPeople::class, 'store']);
     Route::get('/{people}/edit', [AddPeople::class, 'edit']);
