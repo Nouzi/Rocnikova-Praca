@@ -94,3 +94,6 @@
 - vyskúšanie si [routingu](https://laravel.com/docs/9.x/routing)
   cez [Named Routes](https://laravel.com/docs/9.x/routing#named-routes) v [Laravel 9](https://laravel.com/).
 
+**12.2.2022**
+- Experimentovanie s komponentami a slotmi, pre zprehľadnenie kódu a učenie sa ako to funguje. 
+

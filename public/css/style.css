@@ -769,6 +769,11 @@ select {
 .h-admin-sidePanel-Height {
   height: 90%;
 }
+.h-fit {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
 .h-8 {
   height: 2rem;
 }
@@ -783,11 +788,6 @@ select {
 }
 .h-6 {
   height: 1.5rem;
-}
-.h-fit {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
 }
 .min-h-screen {
   min-height: 100vh;
@@ -835,9 +835,6 @@ select {
 }
 .w-48 {
   width: 12rem;
-}
-.w-3\/12 {
-  width: 25%;
 }
 .max-w-7xl {
   max-width: 80rem;
@@ -897,14 +894,8 @@ select {
 .flex-col {
   flex-direction: column;
 }
-.items-start {
-  align-items: flex-start;
-}
 .items-center {
   align-items: center;
-}
-.justify-start {
-  justify-content: flex-start;
 }
 .justify-end {
   justify-content: flex-end;
@@ -1570,14 +1561,6 @@ select {
 
   .xl\:w-3\/12 {
     width: 25%;
-  }
-
-  .xl\:w-4\/12 {
-    width: 33.333333%;
-  }
-
-  .xl\:w-2\/12 {
-    width: 16.666667%;
   }
 }
 
