@@ -84,7 +84,7 @@
 ### Celová verzia dosiahnutá
 
 **Nižšie spracované aktualizácie budú slúžiť už len na vylepšovanie základnej verzie, ktorá je už plne funkčná a
-  dizajnovo spracovaná pre hlavné rozlíšenie 1920x1080**
+dizajnovo spracovaná pre hlavné rozlíšenie 1920x1080**
 
 <hr/>
 
@@ -95,5 +95,11 @@
   cez [Named Routes](https://laravel.com/docs/9.x/routing#named-routes) v [Laravel 9](https://laravel.com/).
 
 **12.2.2022**
-- Experimentovanie s komponentami a slotmi, pre zprehľadnenie kódu a učenie sa ako to funguje. 
+
+- Experimentovanie s komponentami a slotmi, pre zprehľadnenie kódu a učenie sa ako to funguje.
+
+**13.2.2022**
+
+- Podrobné študovanie Laravel Komponentov a posielania dát cez jednotlivé komponenty a ich modely.
+
 
