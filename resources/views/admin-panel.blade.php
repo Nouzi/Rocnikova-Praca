@@ -1,5 +1,6 @@
 <x-layouts.admin-panel>
 
+
     <x-slot:redirectToTrieda>
         <ul
             class="flex gap-4 rounded-lg py-2 px-4 focus:shadow-none focus:border-0 focus:ring-0  w-fit">  {{--tlačítko sa ešte zmenšuje a treba domyslieť ten select--}}
@@ -38,5 +39,8 @@
             </tbody>
 
         @endforeach
+
+
+
     </table>
 </x-layouts.admin-panel>

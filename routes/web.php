@@ -81,6 +81,7 @@ Route::prefix("admin-panel")->middleware(["auth"])->group(function () {
     Route::get("/trieda_a", [AdminPanel::class, 'triedaA']);
     Route::get("/trieda_d", [AdminPanel::class, 'triedaD']);
     Route::get("/trieda_b", [AdminPanel::class, 'triedaB']);
+    Route::get('/', \App\Models\trieda::class, '');
 
     Route::get('/create', [AddPeople::class, 'create']);
     Route::post('/', [AddPeople::class, 'store']);

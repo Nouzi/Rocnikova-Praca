@@ -102,4 +102,6 @@ dizajnovo spracovaná pre hlavné rozlíšenie 1920x1080**
 
 - Podrobné študovanie Laravel Komponentov a posielania dát cez jednotlivé komponenty a ich modely.
 
+**14.2.2022**
 
+- Práca na novom spôsobe zobrazovania viacerých tabuliek v jednom, vďaka Laravel Relationships.

@@ -11,7 +11,7 @@ class ludia extends Model
 {
     use HasFactory;
 
-    public function trieda() {
-        return $this->belongsToMany(trieda::class, "ludia_to_trieda");
+    public function user() {
+     /*   return $this->belongsTo(trieda::class);*/
     }
 }
