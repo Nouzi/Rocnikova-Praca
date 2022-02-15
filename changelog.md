@@ -105,3 +105,7 @@ dizajnovo spracovaná pre hlavné rozlíšenie 1920x1080**
 **14.2.2022**
 
 - Práca na novom spôsobe zobrazovania viacerých tabuliek v jednom, vďaka Laravel Relationships.
+
+
+**15.2.2022**
+- Ukončenie experimentovania a presunutie sa na nový projekt. 
