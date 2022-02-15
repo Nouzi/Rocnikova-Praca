@@ -84,3 +84,9 @@
 ### Cielová verzia dosiahnutá 
 **Nižšie spracované aktualizácie budú slúžiť už len na vylepšovanie základnej verzie, ktorá je už plne funkčná
 a dizajnovo spracovaná pre hlavné rozlíšenie 1920x1080**
+
+
+
+**15.2.2022**
+
+- Všetky experimentálne aktualizácie nájdete na vedľajšej vetve [sub-master](https://github.com/Nouzi/Rocnikova-Praca/blob/sub-master/changelog.md).
