@@ -12,6 +12,6 @@ class ludia extends Model
     use HasFactory;
 
     public function user() {
-     /*   return $this->belongsTo(trieda::class);*/
+        return $this->belongsTo(trieda::class);
     }
 }

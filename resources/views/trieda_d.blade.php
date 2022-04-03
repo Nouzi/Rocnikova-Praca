@@ -20,7 +20,7 @@
     {{--Hlavná Časť--}}
     <div class="mainBar w-5/6">
 
-        <div class="flex flex-col justify-center border border-1    h-1/6 px-10">
+        <div class="flex flex-col justify-center     h-1/6 px-10">
 
             <ul
                 class="flex gap-4 rounded-lg py-2 px-4 focus:shadow-none focus:border-0 focus:ring-0  w-fit">  {{--tlačítko sa ešte zmenšuje a treba domyslieť ten select--}}

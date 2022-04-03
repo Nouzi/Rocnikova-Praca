@@ -15,7 +15,7 @@
     {{--Hlavná Časť--}}
     <div class="mainBar w-5/6">
 
-        <div class="flex flex-col justify-center border border-1    h-1/6 px-10">
+        <div class="flex flex-col justify-center     h-1/6 px-10">
             {{$redirectToTrieda}}
         </div>
 
@@ -23,7 +23,7 @@
 
 
             {{$slot}}
-{{--            <table class="table-auto text-center w-4/6 max-w-screen-md    border border-1 mx-10 bg-gray-600">
+         {{--   <table class="table-auto text-center w-4/6 max-w-screen-md    border border-1 mx-10 bg-gray-600">
                 <thead class="border border-1">
                 <tr>
                     <th>Meno</th>

@@ -10,9 +10,9 @@ class trieda extends Model
 {
     use HasFactory;
 
-/*    function classes()
+    function classes()
     {
         return $this->hasMany(ludia::class);
-    }*/
+    }
 
 }
